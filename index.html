@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Organic Newari Achar</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fff8f0;
+            text-align: center;
+        }
+
+        header {
+            background: #8b0000;
+            color: white;
+            padding: 20px;
+            animation: fadeIn 2s;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .product {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            animation: slideUp 1.5s ease;
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background: #8b0000;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background: #a30000;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Authentic Newari Achar</h1>
+    <p>Organic • Hygienic • Homemade Goodness</p>
+</header>
+
+<div class="content">
+    <div class="product">
+        <img src="https://via.placeholder.com/300x200" alt="Newari Achar">
+        <h2>Spicy Newari Achar</h2>
+        <p>
+            Made with fresh, organic ingredients and traditional Newari recipes. 
+            Prepared in a clean and hygienic environment to ensure top quality taste.
+        </p>
+        <button class="btn" onclick="orderNow()">Order Now</button>
+    </div>
+</div>
+
+<footer>
+    <p>Contact: 98XXXXXXXX | Fresh Taste from Nepal</p>
+</footer>
+
+<script>
+    function orderNow() {
+        alert("Thank you for your interest! We will contact you soon.");
+    }
+</script>
+
+</body>
+</html>
